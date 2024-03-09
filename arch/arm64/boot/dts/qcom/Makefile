@@ -26,8 +26,8 @@ dtbo-$(CONFIG_ARCH_QCOM) += \
 	fajita-evb-v2.1-overlay.dtbo \
 	fajita-t0-v2.1-overlay.dtbo \
 	fajita-evt1-v2.1-overlay.dtbo \
-	fajita-dvt-v2.1-overlay.dtbo \
-	fajita-dvt-v2.1-bu-overlay.dtbo \
+#	fajita-dvt-v2.1-overlay.dtbo \
+#	fajita-dvt-v2.1-bu-overlay.dtbo \
 	fajita-pvt-v2.1-overlay.dtbo \
 	fajita-pvt-v2.1-bu-overlay.dtbo \
 	fajita-pvt-v2.1-v1-overlay.dtbo \
