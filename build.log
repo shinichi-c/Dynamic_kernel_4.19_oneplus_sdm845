@@ -1,0 +1,1081 @@
+make[1]: Entering directory '/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/out'
+  GEN     ./Makefile
+  WRAP    arch/arm64/include/generated/uapi/asm/errno.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ioctl.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ioctls.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ipcbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/kvm_para.h
+  WRAP    arch/arm64/include/generated/uapi/asm/mman.h
+  WRAP    arch/arm64/include/generated/uapi/asm/msgbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/poll.h
+  WRAP    arch/arm64/include/generated/uapi/asm/resource.h
+  WRAP    arch/arm64/include/generated/uapi/asm/sembuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/shmbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/socket.h
+  WRAP    arch/arm64/include/generated/uapi/asm/sockios.h
+  WRAP    arch/arm64/include/generated/uapi/asm/termbits.h
+  WRAP    arch/arm64/include/generated/uapi/asm/swab.h
+  WRAP    arch/arm64/include/generated/uapi/asm/termios.h
+  WRAP    arch/arm64/include/generated/uapi/asm/types.h
+  UPD     include/generated/uapi/linux/version.h
+  UPD     include/config/kernel.release
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  Using .. as source for kernel
+  WRAP    arch/arm64/include/generated/asm/bugs.h
+  WRAP    arch/arm64/include/generated/asm/delay.h
+  WRAP    arch/arm64/include/generated/asm/dma.h
+  WRAP    arch/arm64/include/generated/asm/dma-contiguous.h
+  WRAP    arch/arm64/include/generated/asm/div64.h
+  WRAP    arch/arm64/include/generated/asm/early_ioremap.h
+  WRAP    arch/arm64/include/generated/asm/emergency-restart.h
+  WRAP    arch/arm64/include/generated/asm/hw_irq.h
+  WRAP    arch/arm64/include/generated/asm/irq_regs.h
+  WRAP    arch/arm64/include/generated/asm/kdebug.h
+  WRAP    arch/arm64/include/generated/asm/kmap_types.h
+  WRAP    arch/arm64/include/generated/asm/local.h
+  WRAP    arch/arm64/include/generated/asm/local64.h
+  WRAP    arch/arm64/include/generated/asm/mcs_spinlock.h
+  WRAP    arch/arm64/include/generated/asm/mm-arch-hooks.h
+  WRAP    arch/arm64/include/generated/asm/msi.h
+  WRAP    arch/arm64/include/generated/asm/preempt.h
+  WRAP    arch/arm64/include/generated/asm/qrwlock.h
+  WRAP    arch/arm64/include/generated/asm/qspinlock.h
+  WRAP    arch/arm64/include/generated/asm/rwsem.h
+  WRAP    arch/arm64/include/generated/asm/segment.h
+  WRAP    arch/arm64/include/generated/asm/serial.h
+  WRAP    arch/arm64/include/generated/asm/set_memory.h
+  WRAP    arch/arm64/include/generated/asm/sizes.h
+  WRAP    arch/arm64/include/generated/asm/trace_clock.h
+  WRAP    arch/arm64/include/generated/asm/unaligned.h
+  WRAP    arch/arm64/include/generated/asm/switch_to.h
+  WRAP    arch/arm64/include/generated/asm/user.h
+  WRAP    arch/arm64/include/generated/asm/vga.h
+  WRAP    arch/arm64/include/generated/asm/xor.h
+  UPD     include/generated/utsrelease.h
+  HOSTCC  scripts/genksyms/genksyms.o
+  YACC    scripts/genksyms/parse.tab.c
+  HOSTCC  scripts/bin2c
+  HOSTCC  scripts/dtc/dtc.o
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  HOSTCC  scripts/sortextable
+  HOSTCC  scripts/mod/mk_elfconfig
+  LEX     scripts/genksyms/lex.lex.c
+  HOSTCC  scripts/asn1_compiler
+  CC      scripts/mod/devicetable-offsets.s
+  HOSTCC  scripts/dtc/flattree.o
+  UPD     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/sign-file
+  HOSTCC  scripts/selinux/mdp/mdp
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/modpost.o
+  YACC    scripts/genksyms/parse.tab.h
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/genksyms/lex.lex.o
+  HOSTCC  scripts/dtc/fstree.o
+  HOSTCC  scripts/dtc/data.o
+  CC      kernel/bounds.s
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/dtc/srcpos.o
+  HOSTCC  scripts/dtc/checks.o
+  UPD     include/generated/timeconst.h
+  UPD     include/generated/bounds.h
+  CC      arch/arm64/kernel/asm-offsets.s
+  HOSTCC  scripts/dtc/util.o
+  LEX     scripts/dtc/dtc-lexer.lex.c
+  YACC    scripts/dtc/dtc-parser.tab.h
+  YACC    scripts/dtc/dtc-parser.tab.c
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTLD  scripts/genksyms/genksyms
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+  HOSTLD  scripts/dtc/dtc
+  HOSTLD  scripts/mod/modpost
+  UPD     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  LDS     arch/arm64/kernel/vdso/vdso.lds
+  CC      arch/arm64/kernel/vdso/vgettimeofday.o
+  AS      arch/arm64/kernel/vdso/note.o
+  AS      arch/arm64/kernel/vdso/sigreturn.o
+  LD      arch/arm64/kernel/vdso/vdso.so.dbg
+  VDSOSYM include/generated/vdso-offsets.h
+  CHK     include/generated/compile.h
+  CC      init/main.o
+  CC      init/do_mounts.o
+  CC      init/do_mounts_rd.o
+  CC      init/do_mounts_initrd.o
+  CC      init/noinitramfs.o
+  CC      init/do_mounts_dm.o
+  HOSTCC  usr/gen_init_cpio
+  UPD     include/generated/compile.h
+  CC      init/initramfs.o
+  GEN     usr/initramfs_data.cpio
+  AS      usr/initramfs_data.o
+  AR      usr/built-in.a
+  CC      arch/arm64/kernel/probes/uprobes.o
+  CC      init/calibrate.o
+  CC      init/init_task.o
+  CC      init/version.o
+  CC      arch/arm64/kernel/probes/decode-insn.o
+  CC      arch/arm64/kernel/probes/simulate-insn.o
+  OBJCOPY arch/arm64/kernel/vdso/vdso.so
+  AS      arch/arm64/kernel/vdso/vdso.o
+  AR      arch/arm64/kernel/vdso/built-in.a
+  CC      arch/arm64/kernel/debug-monitors.o
+  AS      arch/arm64/kernel/entry.o
+  CC      arch/arm64/kernel/irq.o
+  CC      arch/arm64/kernel/fpsimd.o
+  AS      arch/arm64/kernel/entry-fpsimd.o
+  AR      arch/arm64/kernel/probes/built-in.a
+  CC      arch/arm64/kernel/process.o
+  CC      arch/arm64/kernel/ptrace.o
+  CC      arch/arm64/kernel/setup.o
+  CC      arch/arm64/kernel/signal.o
+  AR      init/built-in.a
+  CC      arch/arm64/mm/dma-mapping.o
+  CC      arch/arm64/kernel/sys.o
+  CC      arch/arm64/kernel/stacktrace.o
+  CC      arch/arm64/kernel/time.o
+  CC      arch/arm64/kernel/traps.o
+  CC      arch/arm64/kernel/io.o
+  CC      arch/arm64/kernel/vdso.o
+  AS      arch/arm64/kernel/hyp-stub.o
+  CC      arch/arm64/kernel/psci.o
+  CC      arch/arm64/kernel/cpu_ops.o
+  CC      arch/arm64/mm/extable.o
+  CC      arch/arm64/net/bpf_jit_comp.o
+  CC      arch/arm64/mm/fault.o
+  CC      arch/arm64/kernel/insn.o
+  CC      arch/arm64/kernel/return_address.o
+  CC      arch/arm64/mm/init.o
+  CC      arch/arm64/kernel/cpuinfo.o
+  CC      arch/arm64/kernel/cpu_errata.o
+  CC      arch/arm64/kernel/cpufeature.o
+  AS      arch/arm64/mm/cache.o
+  CC      arch/arm64/mm/copypage.o
+  CC      arch/arm64/kernel/alternative.o
+  CC      arch/arm64/kernel/cacheinfo.o
+  CC      arch/arm64/kernel/smp.o
+  AR      arch/arm64/net/built-in.a
+  CC      arch/arm64/kernel/smp_spin_table.o
+  CC      arch/arm64/crypto/sha1-ce-glue.o
+  CC      arch/arm64/mm/flush.o
+  CC      arch/arm64/kernel/topology.o
+  AS      arch/arm64/kernel/smccc-call.o
+  CC      arch/arm64/kernel/syscall.o
+  CC      arch/arm64/mm/ioremap.o
+  CC      arch/arm64/kernel/sys32.o
+  CC      arch/arm64/kernel/signal32.o
+  AS      arch/arm64/crypto/sha1-ce-core.o
+  CC      arch/arm64/crypto/sha2-ce-glue.o
+  CC      arch/arm64/mm/mmap.o
+  CC      arch/arm64/kernel/sys_compat.o
+  AS      arch/arm64/kernel/sigreturn32.o
+  AS      arch/arm64/kernel/kuser32.o
+  CC      arch/arm64/kernel/arm64ksyms.o
+  CC      arch/arm64/mm/pgd.o
+  CC      arch/arm64/kernel/module.o
+  CC      arch/arm64/kernel/module-plts.o
+  CC      arch/arm64/mm/mmu.o
+  AS      arch/arm64/crypto/sha2-ce-core.o
+  CC      arch/arm64/kernel/perf_regs.o
+  CC      arch/arm64/crypto/ghash-ce-glue.o
+  CC      arch/arm64/kernel/perf_callchain.o
+  CC      arch/arm64/mm/context.o
+  CC      arch/arm64/kernel/perf_event.o
+  CC      arch/arm64/kernel/perf_trace_counters.o
+  CC      arch/arm64/kernel/perf_trace_user.o
+  CC      arch/arm64/kernel/hw_breakpoint.o
+  AS      arch/arm64/kernel/sleep.o
+  AS      arch/arm64/mm/proc.o
+  CC      arch/arm64/kernel/suspend.o
+  CC      arch/arm64/mm/pageattr.o
+  AS      arch/arm64/crypto/ghash-ce-core.o
+  AS      arch/arm64/crypto/aes-ce-core.o
+  CC      arch/arm64/crypto/aes-ce-glue.o
+  CC      arch/arm64/kernel/cpuidle.o
+  CC      arch/arm64/mm/hugetlbpage.o
+  CC      arch/arm64/kernel/pci.o
+  CC      arch/arm64/crypto/aes-ce-ccm-glue.o
+  CC      arch/arm64/kernel/armv8_deprecated.o
+  CC      arch/arm64/kernel/kaslr.o
+  CC      arch/arm64/kernel/ssbd.o
+  AS      arch/arm64/kernel/head.o
+  AS      arch/arm64/crypto/aes-ce-ccm-core.o
+  LDS     arch/arm64/kernel/vmlinux.lds
+  CC      arch/arm64/crypto/aes-glue-ce.o
+  AS      arch/arm64/crypto/aes-ce.o
+  CC      arch/arm64/crypto/aes-glue-neon.o
+  CC      kernel/cgroup/cgroup.o
+Generating X.509 key generation config
+  CC      certs/system_keyring.o
+  AR      arch/arm64/mm/built-in.a
+  CC      kernel/bpf/core.o
+  AS      arch/arm64/crypto/aes-neon.o
+  AR      arch/arm64/kernel/built-in.a
+  CC      mm/filemap.o
+  CC      arch/arm64/crypto/sha256-glue.o
+  CC      fs/configfs/inode.o
+  EXTRACT_CERTS   
+###
+### Now generating an X.509 key pair to be used for signing modules.
+###
+### If this takes a long time, you might wish to run rngd in the
+### background to keep the supply of entropy topped up.  It
+### needs to be run as root, and uses a hardware random
+### number generator if one is available.
+###
+......+....+...+  SHIPPED arch/arm64/crypto/sha256-core.S
+...+...........+......+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.+.....+....+..+.........+......+.......+.....+.+..+.......+.....+......+.+........+.......++++++++++++++++++++++++++  AS      arch/arm64/crypto/chacha-neon-core.o
++++++++++++++++++++++++++++++++++++++++*...........+.+......+......+..+......+.+  CC      fs/configfs/file.o
+.....+.+.........+...............+.....+.........+....+........+.........+....+..+.........+....+.........+......+..+...  CC      arch/arm64/crypto/chacha-neon-glue.o
++......+.+..+  CC      fs/configfs/dir.o
+.+...............+......+...+...............+...+...+.....+............+.............+...............+...........+...............+.+........+.......+............+......+..  CC      fs/configfs/symlink.o
+...+.........+  SHIPPED arch/arm64/crypto/poly1305-core.S
+...  CC      arch/arm64/crypto/poly1305-glue.o
+..................+............+....+...+..+..........+.....+...+...+.......+...+.....+...+.+...........+.........+....+..+............+...+.......+...+..+.+.....+.........+.........................+..+...+.......+.........+.....+......+.+++++++++++  CC      fs/configfs/mount.o
++++++++++++++++++  AS      arch/arm64/crypto/aes-cipher-core.o
++++++++++++++  CC      arch/arm64/crypto/aes-cipher-glue.o
++++  CC      fs/configfs/item.o
++  CC      kernel/bpf/syscall.o
+++++++++++++++++++++
+......+.......+..+............+....+..............+.......+........+..................+.......+..+....+.....+................+.....+.+..+...+...+.+...........+.........+...+.+..+.........+....+.....+....+...+........+....+..+....+.....+.+.....+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*....+.+.........+......+..+.+..+........................+....+..+...+....+..+...............+....+.....+....+.....+...+...+.+...+...+...+..............+......+....+..+..........+...+..+....+...........+.+..............+...+......+.+..................+..+.+..+.+..............+.+..+..........+.....+......................+...+..+...+....+........+.......+...+......+..+...+....+..+...+.+.....+......+...+......+.+...........+...+......+....+.........+...+..+.......+...+..+.........+.+......+.....+...+.......+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.....+...+.......+...............+...+..+....+  AS      arch/arm64/crypto/sha256-core.o
+.........+.........+...+.....+...+....++++++  AS      arch/arm64/crypto/poly1305-core.o
+++  CC      kernel/bpf/verifier.o
++++++++++++  CC      kernel/bpf/inode.o
+++++++++++++  AR      fs/configfs/built-in.a
++  AR      arch/arm64/crypto/built-in.a
++++  CC      fs/crypto/crypto.o
++++++  CC      ipc/mqueue.o
++  CC      mm/mempool.o
+++++++++++++++++++++++++
+-----
+###
+### Key pair generated.
+###
+  EXTRACT_CERTS   certs/signing_key.pem
+  AS      certs/system_certificates.o
+  AR      certs/built-in.a
+  GEN     security/apparmor/capability_names.h
+  GEN     security/apparmor/rlim_names.h
+  GEN     security/apparmor/net_names.h
+  GEN     security/apparmor/net_names.h
+  CC      security/apparmor/apparmorfs.o
+  CC      fs/crypto/fname.o
+  CC      mm/oom_kill.o
+  CC      kernel/bpf/helpers.o
+  CC      kernel/cgroup/rstat.o
+  CC      ipc/msgutil.o
+  CC      kernel/bpf/tnum.o
+  CC      fs/crypto/hkdf.o
+  CC      kernel/bpf/hashtab.o
+  CC      kernel/cgroup/namespace.o
+  CC      kernel/bpf/arraymap.o
+  CC      ipc/namespace.o
+  CC      security/apparmor/audit.o
+  CC      fs/crypto/hooks.o
+  CC      ipc/mq_sysctl.o
+  CC      kernel/cgroup/cgroup-v1.o
+  CC      mm/fadvise.o
+  AR      ipc/built-in.a
+  CC      crypto/asymmetric_keys/asymmetric_type.o
+  CC      kernel/bpf/percpu_freelist.o
+  CC      kernel/bpf/bpf_lru_list.o
+  CC      fs/crypto/keyring.o
+  CC      kernel/bpf/lpm_trie.o
+  CC      kernel/bpf/map_in_map.o
+  CC      security/apparmor/capability.o
+  CC      kernel/bpf/local_storage.o
+  CC      kernel/bpf/disasm.o
+  CC      mm/maccess.o
+  CC      crypto/asymmetric_keys/restrict.o
+  CC      kernel/cgroup/freezer.o
+  CC      kernel/bpf/btf.o
+  CC      crypto/asymmetric_keys/signature.o
+  CC      fs/crypto/keysetup.o
+  CC      kernel/cgroup/legacy_freezer.o
+  CC      kernel/bpf/devmap.o
+  CC      mm/page_alloc.o
+  CC      kernel/bpf/cpumap.o
+  CC      security/apparmor/task.o
+  CC      crypto/asymmetric_keys/public_key.o
+  CC      kernel/cgroup/pids.o
+  CC      fs/crypto/keysetup_v1.o
+../mm/page_alloc.c:2348:8: error: no member named 'watermark_boost' in 'struct zone'
+ 2348 |         zone->watermark_boost = min(zone->watermark_boost + pageblock_nr_pages,
+      |         ~~~~  ^
+../mm/page_alloc.c:2348:36: error: no member named 'watermark_boost' in 'struct zone'
+ 2348 |         zone->watermark_boost = min(zone->watermark_boost + pageblock_nr_pages,
+      |                                     ~~~~  ^
+../include/linux/kernel.h:857:33: note: expanded from macro 'min'
+  857 | #define min(x, y)       __careful_cmp(x, y, <)
+      |                                       ^
+../include/linux/kernel.h:848:35: note: expanded from macro '__careful_cmp'
+  848 |         __builtin_choose_expr(__safe_cmp(x, y), \
+      |                                          ^
+../include/linux/kernel.h:838:16: note: expanded from macro '__safe_cmp'
+  838 |                 (__typecheck(x, y) && __no_side_effects(x, y))
+      |                              ^
+../include/linux/kernel.h:824:22: note: expanded from macro '__typecheck'
+  824 |                 (!!(sizeof((typeof(x) *)1 == (typeof(y) *)1)))
+      |                                    ^
+../mm/page_alloc.c:2348:36: error: no member named 'watermark_boost' in 'struct zone'
+ 2348 |         zone->watermark_boost = min(zone->watermark_boost + pageblock_nr_pages,
+      |                                     ~~~~  ^
+../include/linux/kernel.h:857:33: note: expanded from macro 'min'
+  857 | #define min(x, y)       __careful_cmp(x, y, <)
+      |                                       ^
+../include/linux/kernel.h:848:35: note: expanded from macro '__careful_cmp'
+  848 |         __builtin_choose_expr(__safe_cmp(x, y), \
+      |                                          ^
+../include/linux/kernel.h:838:43: note: expanded from macro '__safe_cmp'
+  838 |                 (__typecheck(x, y) && __no_side_effects(x, y))
+      |                                                         ^
+../include/linux/kernel.h:835:19: note: expanded from macro '__no_side_effects'
+  835 |                 (_  CC      kernel/bpf/offload.o
+_is_constexpr(x) && __is_constexpr(y))
+      |                                 ^
+../include/linux/kernel.h:832:48: note: expanded from macro '__is_constexpr'
+  832 |         (sizeof(int) == sizeof(*(8 ? ((void *)((long)(x) * 0l)) : (int *)8)))
+      |                                                       ^
+  CC      kernel/bpf/stackmap.o
+../mm/page_alloc.c:2390:11: error: use of undeclared identifier 'ZONE_BOOSTED_WATERMARK'
+ 2390 |                 set_bit(ZONE_BOOSTED_WATERMARK, &zone->flags);
+      |                         ^
+../mm/page_alloc.c:3338:15: error: use of undeclared identifier 'ZONE_BOOSTED_WATERMARK'
+ 3338 |         if (test_bit(ZONE_BOOSTED_WATERMARK, &zone->flags)) {
+      |                      ^
+../mm/page_alloc.c:3339:13: error: use of undeclared identifier 'ZONE_BOOSTED_WATERMARK'
+ 3339 |                 clear_bit(ZONE_BOOSTED_WATERMARK, &zone->flags);
+      |                           ^
+  CC      kernel/cgroup/cpuset.o
+../mm/page_alloc.c:7879:9: error: no member named 'watermark_boost' in 'struct zone'
+ 7879 |                 zone->watermark_boost = 0;
+      |                 ~~~~  ^
+7 errors generated.
+make[2]: *** [../scripts/Makefile.build:338: mm/page_alloc.o] Error 1
+make[1]: *** [/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/Makefile:1216: mm] Error 2
+make[1]: *** Waiting for unfinished jobs....
+  CC      kernel/cgroup/debug.o
+  CC      kernel/bpf/cgroup.o
+  CC      security/apparmor/ipc.o
+  ASN.1   crypto/asymmetric_keys/x509.asn1.c
+  ASN.1   crypto/asymmetric_keys/x509_akid.asn1.c
+  CC      crypto/asymmetric_keys/x509_public_key.o
+  CC      fs/crypto/policy.o
+  CC      fs/crypto/bio.o
+  ASN.1   crypto/asymmetric_keys/pkcs7.asn1.c
+  CC      crypto/asymmetric_keys/pkcs7_trust.o
+  CC      kernel/bpf/reuseport_array.o
+  CC      crypto/asymmetric_keys/pkcs7_verify.o
+  CC      security/apparmor/lib.o
+  CC      security/apparmor/match.o
+  CC      fs/crypto/inline_crypt.o
+  CC      security/apparmor/path.o
+  CC      security/apparmor/domain.o
+  AR      kernel/cgroup/built-in.a
+  CC      kernel/dma/mapping.o
+  CC      crypto/asymmetric_keys/x509.asn1.o
+  CC      crypto/asymmetric_keys/x509_akid.asn1.o
+  AR      kernel/bpf/built-in.a
+  CC      crypto/asymmetric_keys/x509_cert_parser.o
+  CC      kernel/events/core.o
+  CC      security/apparmor/policy.o
+  CC      crypto/asymmetric_keys/pkcs7.asn1.o
+  AR      fs/crypto/built-in.a
+  CC      fs/devpts/inode.o
+  CC      crypto/asymmetric_keys/pkcs7_parser.o
+  CC      kernel/dma/contiguous.o
+  CC      security/apparmor/policy_unpack.o
+  CC      security/apparmor/procattr.o
+make[1]: Entering directory '/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/out'
+  GEN     ./Makefile
+  Using .. as source for kernel
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      kernel/events/core.o
+  CC      kernel/irq/irqdesc.o
+  CC      kernel/dma/contiguous.o
+  CC      mm/page_alloc.o
+  CC      mm/page-writeback.o
+  AR      kernel/livepatch/built-in.a
+  CC      kernel/locking/mutex.o
+  CC      fs/devpts/inode.o
+  CC      security/apparmor/domain.o
+In file included from ../mm/page-writeback.c:39:
+../include/linux/mm_inline.h:147:25: error: incompatible pointer types initializing 'struct lru_gen_struct *' with an expression of type 'struct lru_gen_page *' [-Werror,-Wincompatible-pointer-types]
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                                ^        ~~~~~~~~~~~~~~~
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:350:17: note: expanded from macro 'WRITE_ONCE'
+  350 |         union { typeof(x) __val; char __c[1]; } __u =   \
+      |                        ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:30: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                            ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:155:13: error: incomplete definition of type 'struct lru_gen_struct'
+  155 |                            lrugen->nr_pages[old_gen][type][zone] - delta);
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:35: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                                 ^~~
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:22: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                             ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:42: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                                                 ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:350:17: note: expanded from macro 'WRITE_ONCE'
+  350 |         union { typeof(x) __val; char __c[1]; } __u =   \
+      |                        ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:30: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                            ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:158:13: error: incomplete definition of type 'struct lru_gen_struct'
+  158 |                            lrugen->nr_pages[new_gen][type][zone] + delta);
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:35: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                                 ^~~
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:22: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                             ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:42: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                                                 ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:192:25: error: incompatible pointer types initializing 'struct lru_gen_struct *' with an expression of type 'struct lru_gen_page *' [-Werror,-Wincompatible-pointer-types]
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                                ^        ~~~~~~~~~~~~~~~
+../include/linux/mm_inline.h:194:38: error: incomplete definition of type 'struct lru_gen_struct'
+  194 |         if (PageUnevictable(page) || !lrugen->enabled)
+      |                                       ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:206:32: error: incomplete definition of type 'struct lru_gen_struct'
+  206 |                 gen = lru_gen_from_seq(lrugen->max_seq);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:209:32: error: incomplete definition of type 'struct lru_gen_struct'
+  209 |                 gen = lru_gen_from_seq(lrugen->min_seq[type] + 1);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:211:32: error: incomplete definition of type 'struct lru_gen_struct'
+  211 |                 gen = lru_gen_from_seq(lrugen->min_seq[type]);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:225:36: error: incomplete definition of type 'struct lru_gen_struct'
+  225 |                 list_add_tail(&page->lru, &lrugen->lists[gen][type][zone]);
+      |                                            ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:227:31: error: incomplete definition of type 'struct lru_gen_struct'
+  227 |                 list_add(&page->lru, &lrugen->lists[gen][type][zone]);
+      |                                       ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:249:35: error: use of undeclared identifier 'LRU_REFS_FLAGS'
+  249 |                         new_flags &= ~(LRU_REFS_MASK | LRU_REFS_FLAGS);
+      |                                                        ^
+  CC      kernel/dma/coherent.o
+  CC      kernel/irq/handle.o
+  AR      fs/devpts/built-in.a
+In file included from ../mm/page_alloc.c:58:
+../include/linux/mm_inline.h:147:25: error: incompatible pointer types initializing 'struct lru_gen_struct *' with an expression of type 'struct lru_gen_page *' [-Werror,-Wincompatible-pointer-types]
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                                ^        ~~~~~~~~~~~~~~~
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:350:17: note: expanded from macro 'WRITE_ONCE'
+  350 |         union { typeof(x) __val; char __c[1]; } __u =   \
+      |                        ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:30: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                            ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:155:13: error: incomplete definition of type 'struct lru_gen_struct'
+  155 |                            lrugen->nr_pages[old_gen][type][zone] - delta);
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:35: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                                 ^~~
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:22: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                             ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:154:20: error: incomplete definition of type 'struct lru_gen_struct'
+  154 |                 WRITE_ONCE(lrugen->nr_pages[old_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:42: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                                                 ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:350:17: note: expanded from macro 'WRITE_ONCE'
+  350 |         union { typeof(x) __val; char __c[1]; } __u =   \
+      |                        ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:30: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                            ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:158:13: error: incomplete definition of type 'struct lru_gen_struct'
+  158 |                            lrugen->nr_pages[new_gen][type][zone] + delta);
+      |                            ~~~~~~^
+../include/linux/compiler.h:351:35: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                                 ^~~
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:22: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                             ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:157:20: error: incomplete definition of type 'struct lru_gen_struct'
+  157 |                 WRITE_ONCE(lrugen->nr_pages[new_gen][type][zone],
+      |                            ~~~~~~^
+../include/linux/compiler.h:352:42: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                                                 ^
+../include/linux/mm_inline.h:147:9: note: forward declaration of 'struct lru_gen_struct'
+  147 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:192:25: error: incompatible pointer types initializing 'struct lru_gen_struct *' with an expression of type 'struct lru_gen_page *' [-Werror,-Wincompatible-pointer-types]
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                                ^        ~~~~~~~~~~~~~~~
+../include/linux/mm_inline.h:194:38: error: incomplete definition of type 'struct lru_gen_struct'
+  194 |         if (PageUnevictable(page) || !lrugen->enabled)
+      |                                       ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:206:32: error: incomplete definition of type 'struct lru_gen_struct'
+  206 |                 gen = lru_gen_from_seq(lrugen->max_seq);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:209:32: error: incomplete definition of type 'struct lru_gen_struct'
+  209 |                 gen = lru_gen_from_seq(lrugen->min_seq[type] + 1);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:211:32: error: incomplete definition of type 'struct lru_gen_struct'
+  211 |                 gen = lru_gen_from_seq(lrugen->min_seq[type]);
+      |                                        ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:225:36: error: incomplete definition of type 'struct lru_gen_struct'
+  225 |                 list_add_tail(&page->lru, &lrugen->lists[gen][type][zone]);
+      |                                            ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:227:31: error: incomplete definition of type 'struct lru_gen_struct'
+  227 |                 list_add(&page->lru, &lrugen->lists[gen][type][zone]);
+      |                                       ~~~~~~^
+../include/linux/mm_inline.h:192:9: note: forward declaration of 'struct lru_gen_struct'
+  192 |         struct lru_gen_struct *lrugen = &lruvec->lrugen;
+      |                ^
+../include/linux/mm_inline.h:249:35: error: use of undeclared identifier 'LRU_REFS_FLAGS'
+  249 |                         new_flags &= ~(LRU_REFS_MASK | LRU_REFS_FLAGS);
+      |                                                        ^
+  CC      fs/ecryptfs/dentry.o
+19 errors generated.
+make[2]: *** [../scripts/Makefile.build:338: mm/page-writeback.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+  CC      fs/ecryptfs/file.o
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [../scripts/Makefile.build:338: mm/page_alloc.o] Error 1
+make[1]: *** [/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/Makefile:1216: mm] Error 2
+make[1]: *** Waiting for unfinished jobs....
+  CC      fs/ecryptfs/inode.o
+  CC      kernel/locking/semaphore.o
+  CC      kernel/irq/manage.o
+  CC      fs/ecryptfs/main.o
+  CC      fs/ecryptfs/super.o
+  CC      kernel/dma/removed.o
+  CC      fs/ecryptfs/mmap.o
+  CC      kernel/locking/rwsem.o
+make[1]: Entering directory '/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+  GEN     ./Makefile
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  Using .. as source for kernel
+  HOSTCC  scripts/bin2c
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/dtc/dtc.o
+  HOSTCC  scripts/sortextable
+  HOSTCC  scripts/genksyms/genksyms.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  HOSTCC  scripts/dtc/flattree.o
+  HOSTCC  scripts/asn1_compiler
+  CC      kernel/bounds.s
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/selinux/mdp/mdp
+  YACC    scripts/genksyms/parse.tab.c
+  CC      scripts/mod/devicetable-offsets.s
+  HOSTCC  scripts/sign-file
+  MKELF   scripts/mod/elfconfig.h
+  CC      arch/arm64/kernel/asm-offsets.s
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/dtc/fstree.o
+  HOSTCC  scripts/dtc/data.o
+  LEX     scripts/genksyms/lex.lex.c
+  YACC    scripts/genksyms/parse.tab.h
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/dtc/srcpos.o
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/genksyms/lex.lex.o
+  HOSTCC  scripts/dtc/checks.o
+  HOSTCC  scripts/dtc/util.o
+  LEX     scripts/dtc/dtc-lexer.lex.c
+  YACC    scripts/dtc/dtc-parser.tab.h
+  YACC    scripts/dtc/dtc-parser.tab.c
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+  HOSTLD  scripts/dtc/dtc
+  HOSTLD  scripts/genksyms/genksyms
+  CALL    ../scripts/checksyscalls.sh
+  HOSTLD  scripts/mod/modpost
+  LDS     arch/arm64/kernel/vdso/vdso.lds
+  CC      arch/arm64/kernel/vdso/vgettimeofday.o
+  AS      arch/arm64/kernel/vdso/note.o
+  AS      arch/arm64/kernel/vdso/sigreturn.o
+  LD      arch/arm64/kernel/vdso/vdso.so.dbg
+  VDSOSYM include/generated/vdso-offsets.h
+  CHK     include/generated/compile.h
+  CC      init/main.o
+  CC      init/do_mounts.o
+  CC      init/do_mounts_rd.o
+  CC      init/do_mounts_initrd.o
+  CC      init/do_mounts_dm.o
+  CC      init/noinitramfs.o
+  HOSTCC  usr/gen_init_cpio
+  CC      arch/arm64/kernel/probes/uprobes.o
+  GEN     usr/initramfs_data.cpio
+  AS      usr/initramfs_data.o
+  AR      usr/built-in.a
+  CC      arch/arm64/mm/dma-mapping.o
+  CC      init/initramfs.o
+  CC      init/calibrate.o
+  CC      arch/arm64/kernel/probes/decode-insn.o
+  CC      init/init_task.o
+  CC      init/version.o
+  CC      arch/arm64/kernel/probes/simulate-insn.o
+  CC      arch/arm64/mm/extable.o
+  CC      arch/arm64/mm/fault.o
+  CC      arch/arm64/mm/init.o
+  AR      arch/arm64/kernel/probes/built-in.a
+  LDS     arch/arm64/kernel/vmlinux.lds
+  OBJCOPY arch/arm64/kernel/vdso/vdso.so
+  AS      arch/arm64/kernel/vdso/vdso.o
+  CC      arch/arm64/kernel/debug-monitors.o
+  AR      arch/arm64/kernel/vdso/built-in.a
+  AS      arch/arm64/mm/cache.o
+  AS      arch/arm64/kernel/entry.o
+  CC      arch/arm64/kernel/irq.o
+  AR      init/built-in.a
+  CC      arch/arm64/mm/copypage.o
+  CC      arch/arm64/net/bpf_jit_comp.o
+  CC      arch/arm64/kernel/fpsimd.o
+  CC      arch/arm64/mm/flush.o
+  CC      arch/arm64/mm/ioremap.o
+  AS      arch/arm64/kernel/entry-fpsimd.o
+  CC      arch/arm64/mm/mmap.o
+  CC      arch/arm64/kernel/process.o
+  CC      arch/arm64/kernel/ptrace.o
+  CC      arch/arm64/kernel/setup.o
+  CC      arch/arm64/mm/pgd.o
+  CC      arch/arm64/mm/mmu.o
+  CC      arch/arm64/mm/context.o
+  CC      arch/arm64/kernel/signal.o
+  AR      arch/arm64/net/built-in.a
+  CC      arch/arm64/crypto/sha1-ce-glue.o
+  AS      arch/arm64/mm/proc.o
+  CC      arch/arm64/mm/pageattr.o
+  CC      arch/arm64/kernel/sys.o
+  CC      arch/arm64/mm/hugetlbpage.o
+  CC      arch/arm64/kernel/stacktrace.o
+  AS      arch/arm64/crypto/sha1-ce-core.o
+  CC      arch/arm64/crypto/sha2-ce-glue.o
+  AS      arch/arm64/crypto/sha2-ce-core.o
+  CC      arch/arm64/kernel/time.o
+  CC      arch/arm64/crypto/ghash-ce-glue.o
+  CC      arch/arm64/kernel/traps.o
+  AS      arch/arm64/crypto/ghash-ce-core.o
+  AR      arch/arm64/mm/built-in.a
+  CC      arch/arm64/kernel/io.o
+  AS      arch/arm64/crypto/aes-ce-core.o
+  CC      arch/arm64/crypto/aes-ce-glue.o
+  CC      arch/arm64/kernel/vdso.o
+  CC      arch/arm64/crypto/aes-ce-ccm-glue.o
+  CC      kernel/bpf/core.o
+  CC      kernel/bpf/syscall.o
+  AS      arch/arm64/kernel/hyp-stub.o
+  CC      arch/arm64/kernel/psci.o
+  CC      arch/arm64/kernel/cpu_ops.o
+  AS      arch/arm64/crypto/aes-ce-ccm-core.o
+  CC      arch/arm64/crypto/aes-glue-ce.o
+  AS      arch/arm64/crypto/aes-ce.o
+  CC      arch/arm64/kernel/insn.o
+  CC      arch/arm64/crypto/aes-glue-neon.o
+  AS      arch/arm64/crypto/aes-neon.o
+  CC      arch/arm64/kernel/return_address.o
+  CC      arch/arm64/crypto/sha256-glue.o
+  CC      arch/arm64/kernel/cpuinfo.o
+  AS      arch/arm64/crypto/sha256-core.o
+  CC      arch/arm64/kernel/cpu_errata.o
+  AS      arch/arm64/crypto/chacha-neon-core.o
+  CC      arch/arm64/crypto/chacha-neon-glue.o
+  AS      arch/arm64/crypto/poly1305-core.o
+  CC      arch/arm64/crypto/poly1305-glue.o
+  AS      arch/arm64/crypto/aes-cipher-core.o
+  CC      arch/arm64/kernel/cpufeature.o
+  CC      arch/arm64/crypto/aes-cipher-glue.o
+  CC      kernel/bpf/verifier.o
+  CC      kernel/bpf/inode.o
+  CC      arch/arm64/kernel/alternative.o
+  CC      kernel/bpf/helpers.o
+  CC      kernel/bpf/tnum.o
+  CC      kernel/bpf/hashtab.o
+  AR      arch/arm64/crypto/built-in.a
+  CC      kernel/bpf/arraymap.o
+  EXTRACT_CERTS   
+  EXTRACT_CERTS   certs/signing_key.pem
+  CC      certs/system_keyring.o
+  CC      arch/arm64/kernel/cacheinfo.o
+  CC      arch/arm64/kernel/smp.o
+  CC      arch/arm64/kernel/smp_spin_table.o
+  CC      kernel/bpf/percpu_freelist.o
+  CC      kernel/bpf/bpf_lru_list.o
+  AS      certs/system_certificates.o
+  AR      certs/built-in.a
+  CC      kernel/bpf/lpm_trie.o
+  CC      mm/filemap.o
+  CC      arch/arm64/kernel/topology.o
+  CC      kernel/bpf/map_in_map.o
+  CC      kernel/bpf/local_storage.o
+  AS      arch/arm64/kernel/smccc-call.o
+  CC      arch/arm64/kernel/syscall.o
+  CC      kernel/bpf/disasm.o
+  CC      arch/arm64/kernel/sys32.o
+  CC      kernel/bpf/btf.o
+  CC      arch/arm64/kernel/signal32.o
+  CC      arch/arm64/kernel/sys_compat.o
+  CC      kernel/bpf/devmap.o
+  CC      kernel/bpf/cpumap.o
+  AS      arch/arm64/kernel/sigreturn32.o
+  AS      arch/arm64/kernel/kuser32.o
+  CC      arch/arm64/kernel/arm64ksyms.o
+  CC      arch/arm64/kernel/module.o
+  CC      kernel/bpf/offload.o
+  CC      kernel/bpf/stackmap.o
+  CC      mm/mempool.o
+  CC      kernel/bpf/cgroup.o
+  CC      kernel/bpf/reuseport_array.o
+  CC      arch/arm64/kernel/module-plts.o
+  CC      arch/arm64/kernel/perf_regs.o
+  CC      mm/oom_kill.o
+  CC      arch/arm64/kernel/perf_callchain.o
+  CC      arch/arm64/kernel/perf_event.o
+  CC      arch/arm64/kernel/perf_trace_counters.o
+  CC      mm/fadvise.o
+  CC      mm/maccess.o
+  CC      mm/page_alloc.o
+  CC      arch/arm64/kernel/perf_trace_user.o
+  AR      kernel/bpf/built-in.a
+  CC      arch/arm64/kernel/hw_breakpoint.o
+  CC      kernel/cgroup/cgroup.o
+  CC      mm/page-writeback.o
+  AS      arch/arm64/kernel/sleep.o
+  CC      arch/arm64/kernel/suspend.o
+  CC      kernel/dma/mapping.o
+  CC      kernel/cgroup/rstat.o
+  CC      mm/readahead.o
+  CC      arch/arm64/kernel/cpuidle.o
+  CC      arch/arm64/kernel/pci.o
+  CC      kernel/cgroup/namespace.o
+  CC      kernel/dma/contiguous.o
+  CC      arch/arm64/kernel/armv8_deprecated.o
+  CC      arch/arm64/kernel/kaslr.o
+  CC      mm/swap.o
+  CC      kernel/cgroup/cgroup-v1.o
+  CC      kernel/dma/coherent.o
+  CC      arch/arm64/kernel/ssbd.o
+  AS      arch/arm64/kernel/head.o
+  CC      kernel/dma/removed.o
+  CC      mm/truncate.o
+  AR      arch/arm64/kernel/built-in.a
+  CC      fs/configfs/inode.o
+  CC      kernel/dma/direct.o
+  CC      kernel/cgroup/freezer.o
+  CC      ipc/mqueue.o
+  CC      fs/configfs/file.o
+  CC      kernel/dma/swiotlb.o
+  CC      kernel/cgroup/legacy_freezer.o
+  CC      mm/vmscan.o
+  CC      mm/shmem.o
+  CC      mm/util.o
+  CC      fs/configfs/dir.o
+  CC      kernel/cgroup/pids.o
+  CC      kernel/cgroup/cpuset.o
+  CC      kernel/cgroup/debug.o
+  CC      ipc/msgutil.o
+../mm/vmscan.c:3041:23: error: incompatible pointer types initializing 'struct lru_gen_page *' with an expression of type 'struct lru_gen_struct *' [-Werror,-Wincompatible-pointer-types]
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                              ^        ~~~~~~~~~~~~~~~
+../mm/vmscan.c:3042:37: error: incomplete definition of type 'struct lru_gen_page'
+ 3042 |         int hist = lru_hist_from_seq(lrugen->min_seq[type]);
+      |                                      ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3044:25: error: incomplete definition of type 'struct lru_gen_page'
+ 3044 |         pos->refaulted = lrugen->avg_refaulted[type][tier] +
+      |                          ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3045:29: error: incomplete definition of type 'struct lru_gen_page'
+ 3045 |                          atomic_long_read(&lrugen->refaulted[hist][type][tier]);
+      |                                            ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3046:21: error: incomplete definition of type 'struct lru_gen_page'
+ 3046 |         pos->total = lrugen->avg_total[type][tier] +
+      |                      ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3047:32: error: incomplete definition of type 'struct lru_gen_page'
+ 3047 |                      atomic_long_read(&lrugen->evicted[hist][type][tier]);
+      |                                        ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3049:23: error: incomplete definition of type 'struct lru_gen_page'
+ 3049 |                 pos->total += lrugen->protected[hist][type][tier - 1];
+      |                               ~~~~~~^
+../mm/vmscan.c:3041:9: note: forward declaration of 'struct lru_gen_page'
+ 3041 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3056:23: error: incompatible pointer types initializing 'struct lru_gen_page *' with an expression of type 'struct lru_gen_struct *' [-Werror,-Wincompatible-pointer-types]
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                              ^        ~~~~~~~~~~~~~~~
+../mm/vmscan.c:3058:40: error: incomplete definition of type 'struct lru_gen_page'
+ 3058 |         unsigned long seq = carryover ? lrugen->min_seq[type] : lrugen->max_seq + 1;
+      |                                         ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3058:64: error: incomplete definition of type 'struct lru_gen_page'
+ 3058 |         unsigned long seq = carryover ? lrugen->min_seq[type] : lrugen->max_seq + 1;
+      |                                                                 ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3071:16: error: incomplete definition of type 'struct lru_gen_page'
+ 3071 |                         sum = lrugen->avg_refaulted[type][tier] +
+      |                               ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3072:34: error: incomplete definition of type 'struct lru_gen_page'
+ 3072 |                               atomic_long_read(&lrugen->refaulted[hist][type][tier]);
+      |                                                 ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3073:21: error: incomplete definition of type 'struct lru_gen_page'
+ 3073 |                         WRITE_ONCE(lrugen->avg_refaulted[type][tier], sum / 2);
+      |                                    ~~~~~~^
+../include/linux/compiler.h:350:17: note: expanded from macro 'WRITE_ONCE'
+  350 |         union { typeof(x) __val; char __c[1]; } __u =   \
+      |                        ^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3073:21: error: incomplete definition of type 'struct lru_gen_page'
+ 3073 |                         WRITE_ONCE(lrugen->avg_refaulted[type][tier], sum / 2);
+      |                                    ~~~~~~^
+../include/linux/compiler.h:351:30: note: expanded from macro 'WRITE_ONCE'
+  351 |                 { .__val = (__force typeof(x)) (val) }; \
+      |                                            ^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3073:21: error: incomplete definition of type 'struct lru_gen_page'
+ 3073 |                         WRITE_ONCE(lrugen->avg_refaulted[type][tier], sum / 2);
+      |                                    ~~~~~~^
+../include/linux/compiler.h:352:22: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                             ^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3073:21: error: incomplete definition of type 'struct lru_gen_page'
+ 3073 |                         WRITE_ONCE(lrugen->avg_refaulted[type][tier], sum / 2);
+      |                                    ~~~~~~^
+../include/linux/compiler.h:352:42: note: expanded from macro 'WRITE_ONCE'
+  352 |         __write_once_size(&(x), __u.__c, sizeof(x));    \
+      |                                                 ^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3075:16: error: incomplete definition of type 'struct lru_gen_page'
+ 3075 |                         sum = lrugen->avg_total[type][tier] +
+      |                               ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3076:34: error: incomplete definition of type 'struct lru_gen_page'
+ 3076 |                               atomic_long_read(&lrugen->evicted[hist][type][tier]);
+      |                                                 ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+../mm/vmscan.c:3078:18: error: incomplete definition of type 'struct lru_gen_page'
+ 3078 |                                 sum += lrugen->protected[hist][type][tier - 1];
+      |                                        ~~~~~~^
+../mm/vmscan.c:3056:9: note: forward declaration of 'struct lru_gen_page'
+ 3056 |         struct lru_gen_page *lrugen = &lruvec->lrugen;
+      |                ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [../scripts/Makefile.build:338: mm/vmscan.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+  CC      ipc/namespace.o
+  AR      kernel/dma/built-in.a
+  CC      kernel/events/core.o
+  CC      fs/configfs/symlink.o
+  CC      fs/configfs/mount.o
+  CC      ipc/mq_sysctl.o
+  CC      fs/configfs/item.o
+  CC      kernel/events/ring_buffer.o
+  CC      kernel/events/callchain.o
+  CC      kernel/events/hw_breakpoint.o
+  AR      ipc/built-in.a
+  CC      security/apparmor/apparmorfs.o
+  AR      fs/configfs/built-in.a
+  CC      fs/crypto/crypto.o
+  AR      kernel/cgroup/built-in.a
+make[1]: *** [/data/Dynamic_kernel_4.19_oneplus_sdm845-14.0-4.19/Makefile:1216: mm] Error 2
+make[1]: *** Waiting for unfinished jobs....
+  CC      kernel/irq/irqdesc.o
+  AR      kernel/livepatch/built-in.a
+  CC      kernel/locking/mutex.o
+  CC      kernel/events/uprobes.o
+  CC      kernel/locking/semaphore.o
+  CC      kernel/locking/rwsem.o
